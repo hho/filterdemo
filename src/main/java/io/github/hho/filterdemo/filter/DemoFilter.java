@@ -13,7 +13,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
-@Component
+@Component // <-- this is found via @ComponentScan
 public class DemoFilter extends GenericFilterBean {
 
 	private static final Logger logger = LoggerFactory.getLogger(DemoFilter.class);
